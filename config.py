@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "3fd33336629324ecd664e9b6894f0909")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7629231918:AAFnGYdeQH27t0Pt7fS7PGV1pJJGYt4fo84")
 
 PICS = (environ.get('PICS', 'https://envs.sh/s/5d-PIVcAhv2lf8ltfMQ2Ig/ACR.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7336971189').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7336971189 7195059199').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "File8372bot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -39,7 +39,7 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://SUJAY727273:SUJAY727273@cluster092
 DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
-AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
+AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
